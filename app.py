@@ -14,7 +14,7 @@ from utils import pred_crop, pred_rainfall, pred_temp_hum
 server_url = "http://localhost:5000/latest"
 weather_api_url = "https://api.openweathermap.org/data/2.5/weather?"
 forecast_api_url = "https://api.openweathermap.org/data/2.5/forecast?"
-api_key = "94b55c599637e0e8c9f65adcb4bcbf49"
+api_key = "Your_api_key_use_from_openweathermap"
 lat = "28.9600661"  # Example latitude
 lon = "77.7348613"  # Example longitude
 
