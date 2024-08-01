@@ -5,7 +5,7 @@ def get_temp_hum(district, state=None, month=None):
 
     # with open(".api_key.txt", "r") as file:
     #     API_KEY = file.read().strip()
-    API_KEY = "94b55c599637e0e8c9f65adcb4bcbf49"
+    API_KEY = "Your_api_key"
     # Use the API key
 
     url = f"https://api.openweathermap.org/data/2.5/weather?q={district}&appid={API_KEY}"
